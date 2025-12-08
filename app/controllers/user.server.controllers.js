@@ -1,6 +1,6 @@
 const users = require("../controllers/user.server.controllers")
 
-module.exports = finction(app){
+module.exports = function(app){
     app.route("/users")
     .post(users.create_account);
 
