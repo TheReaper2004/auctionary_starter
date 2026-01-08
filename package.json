@@ -26,7 +26,7 @@
     "test": "tests"
   },
   "scripts": {
-    "main": "node index.js",
+    "main": "node server.js",
     "wipe": "mocha ./tests/database.refresh.js --reporter spec --log-level=warn --timeout 10000",
     "test": "mocha ./tests/test.*.js --reporter spec --log-level=warn --timeout 10000",
     "dev": "nodemon server.js",
